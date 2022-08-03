@@ -389,6 +389,9 @@ header .contenidomenures ul li:hover{
 }
 
 @media (max-width:473px) {
+        header .padreheader{
+padding: 20px;
+    }
 header .padreheader .two h1{
     font-size: 30px;
 }
