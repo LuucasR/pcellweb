@@ -183,7 +183,8 @@ header  .menures span {
     transform: rotate(45deg) translate(0px,0px);
 }
 .lineas2{
-   opacity: 0;
+margin-left: -300px;
+   /* opacity: 0; */
 }
 .lineas3{
     transform: rotate(-45deg) translate(0px,2px);
@@ -193,7 +194,7 @@ header  .menures span {
 section{
     width: 100%;
     height: 100%;
-    background-color: rgba(139, 29, 29, 0.733);
+    background-color: rgba(255, 255, 255, 0.733);
     padding-bottom: 50px;
 }
 
@@ -212,41 +213,285 @@ section .contenedorflex{
     display: flex;
     width: 100%;
     height: 100%;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 section .contenedorflex div{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;;
 }
 
 section .cuadrouno{
-    width: 450px;
+    width: 500px;
     height: 400px;
-    background-color: aqua;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
 }
 section .cuadrodos{
-    width: 450px;
+    width: 500px;
     height: 400px;
-    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
 }
 section .cuadrotres{
-    width: 450px;
+    width: 500px;
     height: 400px;
-    background-color: red;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
 }
 section .cuadrocuatro{
-    background-color: orange;
-    width: 450px;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
+    width: 500px;
     height: 400px;
 }
 
+.aboutme{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 70px 0 70px 0;
 
+}
+.aboutme .imagen{
+    width: 43%;
+    height: 600px;
+    background:url(./Imagenes/iphone/iphone12.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin: 20px;
+    margin-left: 0px 20px 0px 20px;
+}
+
+.aboutme .texto{
+    width: 20%;
+    height: 100%;
+    /* background:url(./Imagenes/iphone/iphone12.png) ; */
+    margin-left: 20px;
+    text-align: left;
+    align-items: center;
+    font-size: 20px;
+}
+
+.aboutme h3 {
+   color:hsl(32,51%,83%) ;
+   font-family: 'Poppins', sans-serif;
+}
+.aboutme p {
+    color:white ;
+    font-family: 'Poppins', sans-serif;
+ }
+.aboutme .moreinfo{
+    text-decoration: none;
+    color:black;
+    background-color: hsl(32,51%,83%) ;
+    padding: 12px;
+    margin-left: 2px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.trabajo{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.trabajoflex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+.trabajo h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+}
+.trabajoflex .flexone{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flextwo{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flexthree{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flexfour{
+    width: 24%;
+  height: 100%;
+}
+
+.imgone{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    background-color: aqua;
+    text-align: center;
+background: url(./Imagenes/Iconos/Recepcionb.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgtwo{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/inspeccion.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgthree{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/reparacion.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgfour{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/cobro.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+
+.trabajo .trabajoflex p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.equipo{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+
+.equipo h3{
+    font-size: 30px;
+    color: hsl(32,51%,83%);
+margin: 20px;
+padding-bottom: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.equipo .equipoflex p{
+    font-size: 20px;
+    text-align: center;
+    margin: 70px auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.equipo .equipoflex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px ;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.equipo .equipoflex .flexone {
+    width: 31%;
+}
+.equipo .equipoflex .flextwo {
+    width: 31%;
+}
+.equipo .equipoflex .flexthree {
+    width: 31%;
+}
+.equipo .equipoflex .personone{
+    width:100%;
+    height: 550px;
+    border-radius: 30px;
+    background: url(./Imagenes/personal/lazorra.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 730px;
+    background-color: hsl(32,51%,83%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .personone .chicoone{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
+.equipo .equipoflex .persontwo{
+    width:100%;
+    height: 550px;
+    background: url(./Imagenes/personal/woody.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .persontwo .chicotwo{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
+.equipo .equipoflex .personthree{
+    width:100%;
+    height: 550px;
+    background: url(./Imagenes/personal/programador.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .personthree .chicothree{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
 @media (max-width:949px) {
     section .contenedorflex{
         flex-direction: column;
@@ -332,6 +577,75 @@ section .cuadrocuatro{
         height: 70%;
        color: white;
        }
+
+       .aboutme .imagen{
+        width: 70%;
+        height: 400px;
+        background:url(./Imagenes/iphone/iphone12.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        margin: 20px;
+        margin-left: 0px 20px 0px 20px;
+    }
+    .aboutme{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(202deg 86% 9%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding: 70px 0 70px 0;
+       flex-wrap: wrap;
+       flex-direction: column;
+    
+    }
+    .aboutme .texto{
+        width: 20%;
+        height: 100%;
+        /* background:url(./Imagenes/iphone/iphone12.png) ; */
+        margin-left: 20px;
+        text-align: left;
+        align-items: center;
+        font-size: 15px;
+    }
+    .aboutme .texto .moreinfo{
+        font-size: 10px;
+    }
+    .equipo .equipoflex{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px ;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+    .equipo .equipoflex .flexone {
+        width: 65%;
+    }
+    .equipo .equipoflex .flextwo {
+        width: 65%;
+    }
+    .equipo .equipoflex .flexthree {
+        width:65%;
+    }
+    .equipo .equipoflex .personone{
+        width:100%;
+        height: 550px;
+        border-radius: 30px;
+        background: url(./Imagenes/personal/lazorra.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 730px;
+        background-color: hsl(32,51%,83%);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-end;
+    }
 }
 
 @media (max-width:700px) {
@@ -349,6 +663,7 @@ header .contenidomenures{
     width: 100%;
     transition: 700ms;
     text-align: center;
+    /* margin-left: -300px; */
     opacity: 0;
     transition: 650ms;
     position: absolute;
@@ -358,6 +673,7 @@ header .contenidomenures{
 }
 header .contenidomenuresbefore{
 opacity: 5;
+/* margin-left: 100px; */
 }
 
 
@@ -385,11 +701,10 @@ header .contenidomenures ul li:hover{
     border-radius: 30px;
     }
 
-
 }
 
 @media (max-width:473px) {
-        header .padreheader{
+    header .padreheader{
 padding: 20px;
     }
 header .padreheader .two h1{
@@ -406,7 +721,7 @@ section .contenedorflex {
     display: flex;
     width: 100%;
     height: 100%;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
@@ -434,5 +749,28 @@ section .contenedorflex .separador .cuadrotres{
 section .contenedorflex .separador .cuadrocuatro{
     width: 250px;
     height: 200px;
+}
+.equipo .equipoflex .flexone {
+    width: 90%;
+}
+.equipo .equipoflex .flextwo {
+    width: 90%;
+}
+.equipo .equipoflex .flexthree {
+    width:90%;
+}
+.equipo .equipoflex .personone{
+    width:100%;
+    height: 550px;
+    border-radius: 30px;
+    background: url(./Imagenes/personal/lazorra.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 730px;
+    background-color: hsl(32,51%,83%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
 }
 }
